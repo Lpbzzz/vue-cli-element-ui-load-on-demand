@@ -15,12 +15,11 @@
             }
         },
         methods: {
-            console(){
+            console() {
                 console.log(this.$router)
             }
         },
-        mounted () {
-        },
+        mounted() {},
         computed: {
 
         }

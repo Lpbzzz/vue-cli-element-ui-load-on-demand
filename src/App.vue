@@ -27,12 +27,20 @@
             }
         },
         methods: {
-            routePush(){
-                this.$router.push({path:'/user/zxc/vbn'})
+            routePush() {
+                this.$router.push({
+                    path: '/user/zxc/vbn'
+                })
             },
             // 编程式导航
             routePush2() {
-                this.$router.push({ name: 'two',params:{name:'zxc',ue:'2ws'} })
+                this.$router.push({
+                    name: 'two',
+                    params: {
+                        name: 'zxc',
+                        ue: '2ws'
+                    }
+                })
             }
         }
     }

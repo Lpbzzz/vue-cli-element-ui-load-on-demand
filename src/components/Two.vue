@@ -2,8 +2,7 @@
     <div class="hello">
         <h2>TWO</h2>
         <router-link to="/index">to index</router-link>
-        {{$route.params.name}}
-        {{$route.params.ue}}
+        {{$route.params.name}} {{$route.params.ue}}
     </div>
 </template>
 
@@ -14,12 +13,9 @@
                 msg: 'iam two ',
             }
         },
-        methods: {
-        },
-        mounted () {
-        },
-        computed: {
-        }
+        methods: {},
+        mounted() {},
+        computed: {}
     }
 
 </script>
